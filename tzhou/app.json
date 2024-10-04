@@ -1,7 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/homepage/homepage",
+    "pages/publishproject/publishproject",
+    "pages/searchproject/searchproject",
+    "pages/projecttalk/projecttalk"
   ],
   "window": {
     "navigationBarTextStyle": "black",

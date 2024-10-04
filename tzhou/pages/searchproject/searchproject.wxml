@@ -1,0 +1,3 @@
+<!--pages/searchproject/searchproject.wxml-->
+<navigation-bar title="ProjectPartner" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
+<text>pages/searchproject/searchproject.wxml</text>
