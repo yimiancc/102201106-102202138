@@ -1,66 +1,36 @@
-// pages/publishproject/publishproject.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
+  onSubmit(e) {
+      const { projectName, description, recruitment } = e.detail.value;
+      
+      if (!projectName || !description || !recruitment) {
+          wx.showToast({
+              title: '请填写完整信息',
+              icon: 'none'
+          });
+          return;
+      }
+      
+      // 假设这里是调用云函数或API保存项目数据
+      wx.cloud.callFunction({
+          name: 'createProject',
+          data: {
+              projectName,
+              description,
+              recruitment,
+          },
+          success: (res) => {
+              wx.showToast({
+                  title: '项目发布成功！',
+              });
+              // 可以跳转到项目列表页面
+              wx.navigateBack();
+          },
+          fail: () => {
+              wx.showToast({
+                  title: '发布失败，请重试',
+                  icon: 'none'
+              });
+          }
+      });
   }
-})
+});
