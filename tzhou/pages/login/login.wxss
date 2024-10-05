@@ -4,3 +4,19 @@
   align-items: center;
   height: 100vh;
 }
+
+
+button {
+  background-color: #CCEEFF; /* 按钮背景颜色 */
+  color: black; /* 字体颜色 */
+  padding: 12px; /* 内边距 */
+  border: none; /* 无边框 */
+  border-radius: 5px; /* 圆角 */
+  font-size: 18px; /* 字体大小 */
+  cursor: pointer; /* 鼠标悬停光标 */
+  transition: background-color 0.3s; /* 动画效果 */
+}
+
+button:hover {
+  background-color: #005bb5; /* 悬停时改变背景颜色 */
+}

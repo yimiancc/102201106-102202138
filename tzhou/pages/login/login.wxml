@@ -1,4 +1,4 @@
-<view class="container">
-  <button bindtap="onLogin">进入首页</button>
-</view>
 <navigation-bar title="ProjectPartner" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
+  <view class="container">
+    <button bindtap="onLogin" >进入首页</button>
+  </view>
