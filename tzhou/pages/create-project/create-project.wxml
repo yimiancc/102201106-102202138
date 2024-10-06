@@ -1,7 +1,8 @@
-<view class="container">
-  <input placeholder="项目名称" bindinput="onInputName"/>
-  <textarea placeholder="小组简介" bindinput="onInputDescription"></textarea>
-  <input placeholder="招募成员，用逗号分隔" bindinput="onInputMembers"/>
-  <button bindtap="onSubmit">发布项目</button>
-</view>
 <navigation-bar title="ProjectPartner" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
+  <view class="container">
+    <input placeholder="项目名称" bindinput="onInputName"/>
+    <textarea placeholder="小组简介" bindinput="onInputDescription"></textarea>
+    <input placeholder="招募成员，用逗号分隔" bindinput="onInputMembers"/>
+    <button bindtap="onSubmit">发布项目</button>
+  </view>
+ 
