@@ -1,9 +1,8 @@
-
 const defaultAvatarUrl = 'https://mmbiz.qpic.cn/mmbiz/icTdbqWNOwNRna42FI242Lcia07jQodd2FJGIYQfG0LAJGFxM4FbnQP6yfMxBgJ0F3YRqJCJ1aPAK2dQagdusBZg/0'
 
 Component({
   data: {
-    motto: '你好！伙伴，快来完成我们的项目吧',
+    motto: '欢迎来到同舟, 快来一起完成我们的项目吧！',
     userInfo: {
       avatarUrl: defaultAvatarUrl,
       nickName: '',
