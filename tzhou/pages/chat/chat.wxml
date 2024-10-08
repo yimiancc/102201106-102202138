@@ -1,0 +1,12 @@
+<navigation-bar title="同舟" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
+  <view class="container">
+    <view class="message-list">
+      <block wx:for="{{messages}}" wx:key="id">
+        <view class="message-item">
+          <text>{{item.user}}: {{item.content}}</text>
+        </view>
+      </block>
+    </view>
+    <input placeholder="输入消息" bindinput="onInputMessage" value="{{inputMessage}}"/>
+    <button bindtap="onSendMessage">发送</button>
+  </view>
