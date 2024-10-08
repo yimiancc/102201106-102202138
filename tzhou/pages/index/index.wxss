@@ -1,14 +1,24 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between; /* 分散布局，使按钮和副标题靠近底部 */
   align-items: center;
-  height: 100vh;
+  height: 100vh; /* 满屏高度 */
+  padding: 20px; /* 防止内容贴边 */
 }
-/*
-button {
-  margin: 20px;
-}*/
+
+.title {
+  font-size: 36px; /* 调整标题大小 */
+  font-weight: bold; /* 加粗 */
+  margin-top: 20px; /* 上方间距 */
+}
+
+.button-container {
+  display: flex; /* 使用 flexbox 布局 */
+  flex-direction: column; /* 垂直排列按钮 */
+  align-items: center; /* 按钮居中 */
+  margin: 20px 0; /* 按钮与其他内容的间距 */
+}
 
 button {
   background-color: #CCEEFF; /* 按钮背景颜色 */
@@ -19,9 +29,15 @@ button {
   font-size: 18px; /* 字体大小 */
   cursor: pointer; /* 鼠标悬停光标 */
   transition: background-color 0.3s; /* 动画效果 */
-  margin: 20px;
+  margin: 40px; /* 按钮之间的间距 */
 }
 
 button:hover {
   background-color: #005bb5; /* 悬停时改变背景颜色 */
+}
+
+.subtitle {
+  font-size: 20px; /* 调整副标题大小 */
+  color: rgb(59, 58, 58); /* 副标题颜色 */
+  margin-bottom: 150px; /* 底部间距 */
 }
