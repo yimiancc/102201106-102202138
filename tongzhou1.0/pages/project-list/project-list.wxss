@@ -1,0 +1,17 @@
+.container {
+  padding: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-item {
+  background-color: #CCEEFF;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px; /* 添加底部外边距以创建垂直间距 */  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

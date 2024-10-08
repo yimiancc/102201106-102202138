@@ -1,0 +1,9 @@
+<navigation-bar title="同舟" back="{{false}}" color="black" background="#77DDFF"></navigation-bar>
+<view class="container">
+  <text class="title">首页</text>
+  <view class="button-container">
+    <button bindtap="onCreateProject">发布项目</button>
+    <button bindtap="onJoinProject">加入项目</button>
+  </view>
+  <text class="subtitle">披荆斩棘，同舟共济</text>
+</view>
