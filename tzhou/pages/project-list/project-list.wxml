@@ -1,0 +1,11 @@
+<navigation-bar title="同舟" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
+<view class="container">
+  <view class="project-list">
+    <block wx:for="{{projects}}" wx:key="id">
+      <view class="project-item" data-id="{{item.id}}" bindtap="onProjectClick">
+        <text>{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+</view>
+<navigation-bar title="ProjectPartner" back="{{true}}" color="black" background="#77DDFF"></navigation-bar>
