@@ -13,7 +13,7 @@
      - **navigation-bar.json**
      - **navigation-bar.wxml**
      - **navigation-bar.wxss**
-3. **pages/** - 小程序页面代码，每个页面独立一个文件夹。
+2. **pages/** - 小程序页面代码，每个页面独立一个文件夹。
    - **login/** - 小程序登录页面。
      - **login.js**
      - **login.json**
@@ -39,24 +39,24 @@
      - **chat.json**
      - **chat.wxml**
      - **chat.wxss**
-5. **utils/** - 工具函数和配置文件，如网络请求封装、日期格式化等。
+3. **utils/** - 工具函数和配置文件，如网络请求封装、日期格式化等。
    - **util.js/** - 工具库文件，包含一系列实用的工具函数。
-7. **app.js/** - 小程序配置文件，自定义ESLint规则，适应项目的特定需求和编码风格。
-8. **app.js/** - 小程序项目的入口文件。
-9. **app.json/** - 小程序项目的全局配置文件。
-10. **app.wxss/** - 小程序项目的全局样式文件。
-11. **.gitignore** - Git忽略文件列表，指定哪些文件或目录不应被提交到仓库。
-12. **project.config.json** - 小程序开发者工具的配置文件，包含项目ID、AppID等信息。
-13.  **project.private.config.json** - 小程序开发者工具的配置文件，包含开发者自定义配置信息。
-14.   **sitemap.json** - 小程序开发者工具的配置文件，配置小程序及其页面是否允许被微信索引。
+4. **app.js/** - 小程序配置文件，自定义ESLint规则，适应项目的特定需求和编码风格。
+5. **app.json/** - 小程序项目的全局配置文件。
+6. **app.wxss/** - 小程序项目的全局样式文件。
+7. **.gitignore** - Git忽略文件列表，指定哪些文件或目录不应被提交到仓库。
+8. **project.config.json** - 小程序开发者工具的配置文件，包含项目ID、AppID等信息。
+9.  **project.private.config.json** - 小程序开发者工具的配置文件，包含开发者自定义配置信息。
+10.   **sitemap.json** - 小程序开发者工具的配置文件，配置小程序及其页面是否允许被微信索引。
 
 ## 使用说明
 
 ### 环境准备
 
 1. **下载安装微信**：相信它早就在你的手机上了~
-2. **扫描小程序二维码**：使用微信扫描二维码进入小程序。
-
+2. **扫描小程序二维码**：使用微信扫描小程序体验版二维码进入小程序。
+   
+<img src="https://github.com/yimiancc/102201106-102202138/blob/main/wechat_images/oxpKb7WPYQzoN0vcDhKEFgbCk5m0.png" width="200" height="200"  alt="tongzhou"/><br/>
 
 ### 开发流程
 
