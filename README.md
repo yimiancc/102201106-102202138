@@ -9,12 +9,36 @@
 **tongzhou1.0/** - 包含项目的所有文档
 1. **components/** - 小程序组件库。
    -**navigation-bar/** -小程序自定义导航栏组件。
+     - **navigation-bar.js**
+     - **navigation-bar.json**
+     - **navigation-bar.wxml**
+     - **navigation-bar.wxss**
 3. **pages/** - 小程序页面代码，每个页面独立一个文件夹。
-   - **login/** - 小程序登录页面
+   - **login/** - 小程序登录页面。
+     - **login.js**
+     - **login.json**
+     - **login.wxml**
+     - **login.wxss**
    - **index/** - 小程序首页页面。
-   - **creat-projecct/** - 小程序创建项目页面。
+     - **index.js**
+     - **index.json**
+     - **index.wxml**
+     - **index.wxss**
+   - **creat-project/** - 小程序创建项目页面。
+     - **creat-project.js**
+     - **creat-project.json**
+     - **creat-project.wxml**
+     - **creat-project.wxss**
    - **project-list/** - 小程序项目列表页面。
+     - **project-list.js**
+     - **project-list.json**
+     - **project-list.wxml**
+     - **project-list.wxss**
    - **chat/** - 小程序项目内聊天界面。
+     - **chat.js**
+     - **chat.json**
+     - **chat.wxml**
+     - **chat.wxss**
 5. **utils/** - 工具函数和配置文件，如网络请求封装、日期格式化等。
    - **util.js/** - 工具库文件，包含一系列实用的工具函数。
 7. **app.js/** - 小程序配置文件，自定义ESLint规则，适应项目的特定需求和编码风格。
